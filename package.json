@@ -1,0 +1,46 @@
+{
+  "name": "rc-code-formatter",
+  "version": "0.0.1",
+  "description": "React component to format your code",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "rimraf build/ && webpack --mode production",
+    "npm:build": "rimraf lib/ && babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qubaish/rc-code-formatter.git"
+  },
+  "keywords": [
+    "react",
+    "code",
+    "formatter",
+    "component"
+  ],
+  "author": "qubaish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qubaish/rc-code-formatter/issues"
+  },
+  "homepage": "https://github.com/Qubaish/rc-code-formatter#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "styled-components": "^5.1.0"
+  }
+}
