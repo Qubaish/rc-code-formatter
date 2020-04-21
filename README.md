@@ -8,7 +8,7 @@
 ## Installation
 
 ```bash
-npm install react-switcher-rc
+npm install rc-code-formatter
 ```
 
 ```javascript
@@ -42,5 +42,3 @@ function App() {
 | theme       | string       | Property to define your code formatter either `light` or `dark`|
 | children       | string       | Template literals string of your code|
 
-# To Do
-* This is beta version lot of functionalities are already in progress
