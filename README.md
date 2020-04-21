@@ -1,9 +1,15 @@
 # Code Formatter Component For React
 
+![npm](https://img.shields.io/npm/v/rc-code-formatter)
+![npm](https://img.shields.io/npm/dm/rc-code-formatter)
+[![gzip size](http://img.badgesize.io/https://unpkg.com/rc-code-formatter/lib/index.js?compression=gzip)](https://unpkg.com/rc-code-formatter/lib/index.js)
+
 * Demo : <a href="https://codesandbox.io/s/rc-code-formatter-zme1k">Live Demo</a>
 
-# Features
+# Description
 * Format your code with different color schemes
+* Very light weight and very useful to add code logic in your blogs
+* Stay tunned more functionalities are coming
 
 ## Installation
 
@@ -41,4 +47,8 @@ function App() {
 | ------------- |:-------------:| :-----:       |
 | theme       | string       | Property to define your code formatter either `light` or `dark`|
 | children       | string       | Template literals string of your code|
+
+## License
+
+MIT
 
